@@ -1,0 +1,33 @@
+{
+  "name": "hexo-renderer-postcss2",
+  "version": "1.0.0",
+  "description": "A Hexo plugin for rendering PostCSS",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "keywords": [
+    "hexo",
+    "postcss",
+    "css",
+    "style",
+    "stylesheet",
+    "styl",
+    "renderer"
+  ],
+  "repository": "chuangker/hexo-renderer-postcss",
+  "author": "Chuangker",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^7.0.6",
+    "postcss-load-config": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
